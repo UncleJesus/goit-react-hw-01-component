@@ -1,7 +1,6 @@
 import React from "react";
 import "./Profile.css";
 import StatsItem from "./statsItem/StatsItem.js";
-
 const Profile = ({ user }) => {
   const { name, tag, location, avatar, stats } = user;
   return (
