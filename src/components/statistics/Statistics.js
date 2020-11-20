@@ -1,13 +1,14 @@
 import React from "react";
-import "./Statistics.module.css";
+import classes from "./Statistics.module.css";
 import StatisticsItem from "./StatisticItem.js";
+import PropTypes from "prop-types";
 
 const Statistics = ({ title, stats }) => {
   return (
-    <section className="statistics">
-      {title && <h2 className="title">Upload stats</h2>}
+    <section className={classes.statistics}>
+      {title && <h2 className={classes.title}>Upload stats</h2>}
 
-      <ul className="stat-list">
+      <ul className={classes.statList}>
         {stats.map((el) => {
           return (
             <StatisticsItem
@@ -20,5 +21,9 @@ const Statistics = ({ title, stats }) => {
       </ul>
     </section>
   );
+};
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.array.isRequired,
 };
 export default Statistics;
