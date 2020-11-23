@@ -9,7 +9,9 @@ const Tr = styled.tr`
   letter-spacing: 0.45px;
   &:nth-child(even) {
     background-color: #ecf2f3;
+  }
 `;
+
 const Data = styled.td`
   color: #5c6975;
   font-size: 15px;

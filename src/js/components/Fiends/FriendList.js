@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import FriendsListItem from './FriendListItem';
+import FriendsListItem from './FriendListItem.js';
 
 const List = styled.ul`
   display: flex;

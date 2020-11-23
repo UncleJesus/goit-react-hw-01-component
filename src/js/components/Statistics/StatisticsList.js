@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import StatisticItem from './StatisticItem';
-import hexColorGen from '../helpers/hexColorGen';
+import hexColorGen from '../../helpers/hexColorGen';
 
 const Section = styled.section`
   background-color: #f0f3f6;

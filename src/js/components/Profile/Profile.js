@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import ProfileStats from './ProfileStats';
-import setAltAvatar from '../helpers/setAltAvatar.js';
+import setAltAvatar from '../../helpers/setAltAvatar';
 import styled from 'styled-components';
 
 const StyledProfile = styled.div`
