@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import setAltAvatar from '../setAltAvatar';
+import setAltAvatar from '../helpers/setAltAvatar.js';
 import styled from 'styled-components';
 
 const ListItem = styled.li`
